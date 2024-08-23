@@ -1,27 +1,55 @@
-# Crazyhorse
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.14.
+Mountain NG16 Layout
 
-## Development server
+## Описание
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Mountain NG16 Layout — это веб-приложение для управления и отображения информации о маршрутах скалолазания в фантазийном районе. 
+Приложение предоставляет удобный интерфейс для просмотра информации о горах, секторах и маршрутах, а также позволяет пользователям получать детализированные данные о каждом элементе.
 
-## Code scaffolding
+## Технологии
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- **Angular 16**: Основной фреймворк для построения клиентской части приложения. Используется для создания динамичных и отзывчивых пользовательских интерфейсов.
+- **TypeScript**: Язык программирования, который добавляет статическую типизацию и улучшает разработку в Angular.
+- **SCSS**: Препроцессор CSS для написания стилей, позволяющий использовать переменные, функции и вложенные правила.
+- **Angular Material**: Библиотека UI-компонентов, которая предоставляет стильные и функциональные компоненты для Angular приложений.
+- **Git**: Система контроля версий, используемая для управления кодом и координации работы над проектом.
 
-## Build
+## Установка и настройка
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+1. **Клонирование репозитория:**
+   ```bash
+   git clone https://github.com/MagretBro/mountain-ng16-layout.git
+   ```
 
-## Running unit tests
+2. **Переход в директорию проекта:**
+   ```bash
+   cd mountain-ng16-layout
+   ```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+3. **Установка зависимостей:**
+   ```bash
+   npm install
+   ```
 
-## Running end-to-end tests
+4. **Запуск приложения:**
+   ```bash
+   ng serve
+   ```
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+   Откройте браузер и перейдите по адресу [http://localhost:4200](http://localhost:4200) для просмотра приложения.
 
-## Further help
+## Структура проекта
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- **src/app/model/model.ts**: Модели данных для работы с горами, секторами и маршрутами.
+- **src/app/components/**: Компоненты приложения, включая отображение информации о горах, секторах и маршрутах.
+- **src/app/service/**: Сервисы для взаимодействия с данными и бизнес-логики.
+- **src/assets/**: Статические ресурсы, такие как изображения.
+
+## Использование
+
+1. **Просмотр гор**: На главной странице отображается список гор с их изображениями и описанием.
+2. **Информация о секторах**: При клике на изображение горы отображается информация о секторах и маршрутах, связанных с выбранной горой.
+
+## Вклад
+
+Ваш вклад в проект приветствуется! Если вы хотите внести изменения или улучшения, пожалуйста, создайте Pull Request с описанием ваших изменений.
