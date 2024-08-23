@@ -1,0 +1,47 @@
+.example-card {
+  max-width: 100%;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.mountain-image {
+  width: 300px;
+  height: auto;
+  margin-right: 10px;
+  cursor: pointer; // Курсор в виде указателя при наведении
+}
+
+.rock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.rock h3 {
+  font: 26px Roboto, "Helvetica Neue", sans-serif;
+}
+
+.decsribe {
+  margin: 10px 0;
+  text-align: center;
+}
+
+table {
+  //flex-direction: row;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+}
+
+tr:hover {
+  background-color: #4f4d4d;
+}
+
+
+
